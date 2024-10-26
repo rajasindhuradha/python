@@ -1,0 +1,9 @@
+score=int(input("Enter the score percentage: "))
+if(score>=70):
+  name=input("Enter your name: ")
+  age=int(input("Enter your age: "))
+  department=input("Enter your department: ")
+  location=input("Enter your location: ")
+  print("You are eligible")
+else:
+  print("You are not eligible")
